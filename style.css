@@ -1,0 +1,139 @@
+body{
+    overflow-x: hidden;
+}
+nav ul {
+  
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    background-color: black;
+    border-radius: 30px;
+    height: 45px;
+    width: 100%;
+    
+list-style-type: none;
+
+}
+li{
+  
+list-style: none;
+    padding: 8px;
+    cursor: pointer;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+ li:hover{
+    text-decoration: underline;
+ 
+} 
+#home{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+   
+justify-content: center;
+align-items: center;
+gap: 30px;
+margin-top: 59px
+}
+hr{
+    width: 400px;
+}
+#image{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    margin-top: 90px;
+    
+}
+.profile p{
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#About{
+    height: 30vh;
+    width: 100%;
+  
+margin: 20px;
+padding: auto;
+}
+
+h2{
+    color: blue;
+    text-align: center;
+}
+.about-container p{
+font-size: 16px;
+text-align: center;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+    
+#skills{
+    height: 30vh;
+    width: 100%;
+   
+}
+#skills h1{
+    color: red;
+    text-align: center;
+}
+#skills ul li{
+    list-style: none;
+    color: green;
+    font-size: 20px;
+    display:flex;
+    justify-content: center;
+}
+#contact{
+    height: 30vh;
+    width: 100%;
+ 
+}
+#contact h1{
+    color: red;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 10px;
+}
+#contact p{
+    text-align: center;
+    color: blue;
+    font-size: 20px;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+form input{
+    width: 80%;
+height: 20px;
+}
+textarea{
+    width: 80%;
+}
+button{
+    background-color: green;
+    color: black;
+    height: 25px;
+    width: 140px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.contact-info p{
+    color: green;
+}
+.container p{
+    color: red;
+}
+@media screen {
+    #skills{
+        margin-top: 150px;
+    }
+}
